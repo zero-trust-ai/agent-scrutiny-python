@@ -66,43 +66,7 @@ Interfaces with AI agents:
 
 ## Data Flow
 
-```
-┌─────────────┐
-│   Agent 1   │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────────────────────────────────┐
-│       Scrutinizer Evaluation Layer      │
-│  ┌─────────────────────────────────┐   │
-│  │  Input Validation               │   │
-│  └────────┬────────────────────────┘   │
-│           ▼                             │
-│  ┌─────────────────────────────────┐   │
-│  │  Core Threat Detection          │   │
-│  └────────┬────────────────────────┘   │
-│           ▼                             │
-│  ┌─────────────────────────────────┐   │
-│  │  Plugin Evaluation Pipeline     │   │
-│  │  ┌────────┐ ┌────────┐ ┌─────┐ │   │
-│  │  │Plugin A│ │Plugin B│ │ ... │ │   │
-│  │  └────────┘ └────────┘ └─────┘ │   │
-│  └────────┬────────────────────────┘   │
-│           ▼                             │
-│  ┌─────────────────────────────────┐   │
-│  │  Policy Enforcement             │   │
-│  └────────┬────────────────────────┘   │
-│           ▼                             │
-│  ┌─────────────────────────────────┐   │
-│  │  Security Verdict (aggregated)  │   │
-│  └─────────────────────────────────┘   │
-└─────────────────────────────────────────┘
-       │
-       ▼
-┌──────────────┐
-│   Agent 2    │
-└──────────────┘
-```
+!["Scrutiny Architecture"](/images/scrutiny_architecture.jpg "Scrutiny Architecture")
 
 ## Plugin Architecture
 
@@ -250,7 +214,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for how to contribute to the architect
 
 ---
 
-**Last Updated**: January 2025
+**Last Updated**: January 2026
 **Next Review**: End of Stage 0
 
 *This document will be continuously updated as the architecture evolves.*
