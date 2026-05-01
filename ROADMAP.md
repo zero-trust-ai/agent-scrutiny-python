@@ -17,7 +17,7 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 
 ---
 
-## 📋 Stage 0: Foundation (Current)
+## 📋 Stage 0: Foundation (Complete)
 
 **Goal**: Establish project foundation, document threat landscape, and design architecture
 
@@ -25,11 +25,11 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 - [x] Project setup and repository structure
 - [x] Mission statement and core principles
 - [x] Plugin architecture design
-- [ ] Comprehensive threat model for AI agents
-- [ ] System architecture documentation
-- [ ] Zero-trust principles applied to AI
-- [ ] Security use cases and scenarios
-- [ ] Community guidelines and contribution docs
+- [x] Comprehensive threat model for AI agents
+- [x] System architecture documentation
+- [x] Zero-trust principles applied to AI
+- [x] Security use cases and scenarios
+- [x] Community guidelines and contribution docs
 
 ### Learning Objectives
 - Understanding AI-specific attack vectors
