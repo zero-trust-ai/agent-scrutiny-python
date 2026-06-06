@@ -1,11 +1,65 @@
-"""Setup configuration for Agent Scrutiny - Python SDK."""
+"""Setup configuration for Agent Scrutiny - Python SDK.
 
-from setuptools import setup, find_packages
+Dependencies are read from requirements.txt and requirements-dev.txt rather
+than being hard-coded here. This keeps the requirements files as the single
+source of truth for what the SDK depends on, regardless of how it gets
+installed (pip install -r requirements.txt, pip install -e ., or
+pip install -e ".[dev]").
+"""
+
 from pathlib import Path
 
-# Read the README file
-this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text(encoding="utf-8")
+from setuptools import find_packages, setup
+
+# ---------------------------------------------------------------------------
+# Paths and helpers
+# ---------------------------------------------------------------------------
+
+ROOT = Path(__file__).parent
+
+
+def parse_requirements(filename: str) -> list[str]:
+    """
+    Parse a pip requirements file into a list of install_requires strings.
+
+    Skips blank lines, comments (both whole-line and inline), and pip
+    directives that setup.py cannot interpret. Specifically:
+
+        * Lines starting with '#' are skipped (whole-line comments).
+        * Anything after '#' on a line is stripped (inline comments).
+        * Lines starting with '-' are skipped (pip directives like
+          -r requirements.txt, -e ., --index-url, --extra-index-url, etc.).
+
+    Environment markers (e.g. 'pydantic>=2.5.0; python_version >= "3.9"')
+    are preserved — setuptools understands them.
+    """
+    requirements: list[str] = []
+    with (ROOT / filename).open(encoding="utf-8") as f:
+        for raw_line in f:
+            # Strip inline comments and surrounding whitespace.
+            line = raw_line.split("#", 1)[0].strip()
+            if not line:
+                continue
+            if line.startswith("-"):
+                # pip directive — setup.py does not interpret these.
+                continue
+            requirements.append(line)
+    return requirements
+
+
+# ---------------------------------------------------------------------------
+# Read project metadata and dependencies
+# ---------------------------------------------------------------------------
+
+long_description = (ROOT / "README.md").read_text(encoding="utf-8")
+
+install_requirements = parse_requirements("requirements.txt")
+dev_requirements = parse_requirements("requirements-dev.txt")
+
+
+# ---------------------------------------------------------------------------
+# setup()
+# ---------------------------------------------------------------------------
 
 setup(
     name="agent-scrutiny",
@@ -41,37 +95,13 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     python_requires=">=3.9",
-    install_requires=[
-        "python-dotenv>=1.0.0",
-        "pydantic>=2.5.0",
-        "typing-extensions>=4.9.0",
-        "structlog>=24.1.0",
-        "colorama>=0.4.6",
-        "pyyaml>=6.0.1",
-        "cryptography>=41.0.0",
-    ],
+    install_requires=install_requirements,
     extras_require={
-        "dev": [
-            "pytest>=7.4.0",
-            "pytest-cov>=4.1.0",
-            "pytest-asyncio>=0.21.0",
-            "pytest-mock>=3.12.0",
-            "black>=23.12.0",
-            "isort>=5.13.0",
-            "flake8>=7.0.0",
-            "mypy>=1.8.0",
-            "pylint>=3.0.0",
-            "sphinx>=7.2.0",
-            "sphinx-rtd-theme>=2.0.0",
-            "myst-parser>=2.0.0",
-            "ipython>=8.19.0",
-            "ipdb>=0.13.13",
-            "pre-commit>=3.6.0",
-        ],
+        "dev": dev_requirements,
     },
     entry_points={
         "console_scripts": [
-            "agent-scrutiny=agent_scrutiny.cli:main",  # Will be implemented in Stage 1
+            "agent-scrutiny=agent_scrutiny.cli:main",  # CLI lands in Stage 1+
         ],
     },
     include_package_data=True,

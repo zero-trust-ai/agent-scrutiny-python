@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "**/venv",
+    "**/.venv",
+    "**/__pycache__",
+    "**/.pytest_cache",
+    "**/.mypy_cache",
+    "**/.ruff_cache",
+    "**/build",
+    "**/dist",
+    "**/site"
+  ],
+  "extraPaths": ["src"],
+  "pythonVersion": "3.9",
+  "pythonPlatform": "All",
+  "reportMissingImports": "error",
+  "reportMissingTypeStubs": "none"
+}
