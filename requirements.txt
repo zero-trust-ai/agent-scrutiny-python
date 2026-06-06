@@ -1,0 +1,21 @@
+# Agent Scrutiny — Runtime Dependencies
+#
+# These are the dependencies needed to use Agent Scrutiny at runtime.
+# Install with: pip install -r requirements.txt
+#
+# This list reflects what the current Stage 1 code actually imports.
+# Forward-looking dependencies are added in the stage that needs them:
+#   * pyyaml         — Stage 2 (plugin.yaml manifest parsing)
+#   * cryptography   — Stage 2 (MCP message signing/verification)
+#   * python-dotenv  — added when env-based configuration is needed
+#   * colorama       — added when CLI output requires color support
+
+# Data validation and serialization for every model in agent_scrutiny.models.
+# Upper bound on 3.0 because Pydantic v2 -> v3 will likely be a breaking change.
+pydantic>=2.5.0,<3.0.0
+
+# Structured logging used by the Scrutinizer and PluginManager.
+structlog>=24.1.0
+
+# Backported typing features for Python 3.9 compatibility.
+typing-extensions>=4.9.0

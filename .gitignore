@@ -1,0 +1,165 @@
+# Agent Scrutiny — Python SDK .gitignore
+#
+# Covers Python build artifacts, virtual environments, test and type-check
+# caches, IDE metadata, OS-generated files, and the Zensical doc build output.
+# Rust artifacts are not included here — the Rust SDK has its own repository
+# and its own .gitignore.
+
+# ---------------------------------------------------------------------------
+# Python — byte-compiled / optimized files
+# ---------------------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---------------------------------------------------------------------------
+# Python — distribution / packaging
+# ---------------------------------------------------------------------------
+
+build/
+dist/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg
+*.egg-info/
+.eggs/
+MANIFEST
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
+
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------------------------------------------------------------------------
+# Testing & coverage
+# ---------------------------------------------------------------------------
+
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+*.py,cover
+.cache/
+.hypothesis/
+
+# ---------------------------------------------------------------------------
+# Type checking
+# ---------------------------------------------------------------------------
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ---------------------------------------------------------------------------
+# Linting
+# ---------------------------------------------------------------------------
+
+.ruff_cache/
+
+# ---------------------------------------------------------------------------
+# Python version managers
+# ---------------------------------------------------------------------------
+
+# pyenv — let each contributor pick their own 3.9+ version.
+.python-version
+
+# ---------------------------------------------------------------------------
+# IDE / editors
+# ---------------------------------------------------------------------------
+
+# VS Code
+.vscode/
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Generic backup files
+*~
+*.bak
+*.tmp
+
+# ---------------------------------------------------------------------------
+# Environment & secrets — NEVER commit these
+# ---------------------------------------------------------------------------
+
+.env
+.env.local
+.env.*.local
+.envrc
+
+# ---------------------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------------------
+
+*.log
+logs/
+
+# ---------------------------------------------------------------------------
+# OS-generated files
+# ---------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------------------------------------------------------------------------
+# Documentation builds
+# ---------------------------------------------------------------------------
+
+# Zensical / MkDocs output
+site/
+
+# Sphinx (if ever used)
+docs/_build/
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Project-specific
+# ---------------------------------------------------------------------------
+
+# Local scratch / experiment files
+scratch/
+tmp/

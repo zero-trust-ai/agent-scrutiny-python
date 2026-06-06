@@ -22,6 +22,7 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 **Goal**: Establish project foundation, document threat landscape, and design architecture
 
 ### Deliverables
+
 - [x] Project setup and repository structure
 - [x] Mission statement and core principles
 - [x] Plugin architecture design
@@ -32,6 +33,7 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 - [x] Community guidelines and contribution docs
 
 ### Learning Objectives
+
 - Understanding AI-specific attack vectors
 - Zero-trust principles fundamentals
 - Threat modeling for agentic systems
@@ -39,6 +41,7 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 - Modular, plugin-based security thinking
 
 ### Success Criteria
+
 - Complete documentation of threat landscape
 - Clear architectural vision including plugin system
 - Community feedback on approach
@@ -51,6 +54,7 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 **Goal**: Build basic security evaluation capabilities with prompt injection detection
 
 ### Key Features
+
 - Core Scrutinizer class and API
 - Prompt injection detection
 - Input/output validation
@@ -60,6 +64,7 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 - Plugin base class and manager (lays the groundwork for Stage 2)
 
 ### Technical Components
+
 ```
 agent_scrutiny/
 ├── core.py              # Core Scrutinizer class
@@ -79,6 +84,7 @@ agent_scrutiny/
 ```
 
 ### Learning Objectives
+
 - Implementing security detectors
 - Building policy enforcement engines
 - Understanding prompt injection techniques
