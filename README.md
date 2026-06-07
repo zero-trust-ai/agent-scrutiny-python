@@ -53,6 +53,7 @@ See [ROADMAP.md](ROADMAP.md) for detailed stage breakdowns.
 
 ### Scrutinizer Engine
 A security evaluation engine capable of:
+
 - Analyzing agent-to-agent communications
 - Detecting prompt injection, data exfiltration, and privilege escalation
 - Enforcing zero-trust policies in real-time
@@ -60,19 +61,23 @@ A security evaluation engine capable of:
 
 ### Plugin Architecture
 A modular plugin system for domain-specific security:
+
 - Specialized analysis modules loaded on demand
 - Community and commercial plugin ecosystem
 - Each plugin is an isolated security boundary
 - Examples: smart contract security, MCP protocol analysis, compliance checking
 
 ### Reusable Templates
+
 Modular, adaptable patterns for:
+
 - Securing specialized AI models with zero-trust controls
 - RAG architectures with evolving security policies
 - Safe agent collaboration with continuous verification
 - Common agentic AI security scenarios
 
 ### Educational Resources
+
 Clear documentation that:
 - Breaks down complex AI security into manageable concepts
 - Provides hands-on examples and working code
