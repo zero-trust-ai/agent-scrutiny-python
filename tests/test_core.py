@@ -116,8 +116,12 @@ class TestConstruction:
             Scrutinizer(mode="not-a-mode")
 
     def test_policies_stored(self):
-        s = Scrutinizer(policies=["a", "b"])
-        assert s.policies == ["a", "b"]
+        from agent_scrutiny import ThresholdPolicy
+        p1 = ThresholdPolicy(downgrade_block_below=0.5, name="p1")
+        p2 = ThresholdPolicy(upgrade_warn_above=0.9, name="p2")
+        s = Scrutinizer(policies=[p1, p2])
+        assert len(s.policies) == 2
+        assert {p.name for p in s.policies} == {"p1", "p2"}
 
     def test_plugins_registered_at_construction(self):
         plugin = _AllowPlugin()
