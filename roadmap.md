@@ -6,12 +6,12 @@ This roadmap outlines the staged development approach for Agent Scrutiny. Each s
 
 ## 🎯 Overall Timeline
 
-**Stage 0**: Foundation (Current) - Q1 2025
-**Stage 1**: Scrutinizer Core - Q1-Q2 2025
-**Stage 2**: MCP Security & Plugins - Q2 2025
-**Stage 3**: RAG Integration - Q2-Q3 2025
-**Stage 4**: Multi-Agent Security - Q3 2025
-**Stage 5**: Production Hardening - Q4 2025
+**Stage 0**: Foundation (Current) - Q1 2026
+**Stage 1**: Scrutinizer Core - Q1-Q2 2026
+**Stage 2**: MCP Security & Plugins - Q2 2026
+**Stage 3**: RAG Integration - Q2-Q3 2026
+**Stage 4**: Multi-Agent Security - Q3 2026
+**Stage 5**: Production Hardening - Q4 2026
 
 *Timeline is aspirational and subject to change based on community involvement and feedback.*
 
@@ -363,7 +363,7 @@ This roadmap is a living document. We expect to:
 - Respond to emerging AI threats
 - Expand plugin ecosystem based on demand
 
-**Last Updated**: January 2025
+**Last Updated**: January 2026
 **Next Review**: End of Stage 0
 
 ---

@@ -9,7 +9,7 @@ We're currently in **Stage 0 - Foundation**, which means:
 - ✅ Documentation is available
 - ✅ Contribution guidelines are ready
 - ✅ Plugin architecture is designed
-- 🔄 Core implementation begins in Stage 1 (Q1 2025)
+- 🔄 Core implementation begins in Stage 1 (Q1 2026)
 
 ## What You Can Do Now
 
@@ -81,7 +81,7 @@ Found a security concern? Email: security@zero-trust.ai
 
 ### Prepare for Stage 1
 
-Stage 1 development starts Q1 2025. Get ready:
+Stage 1 development starts Q1 2026. Get ready:
 
 1. **Read**: [CONTRIBUTING.md](../CONTRIBUTING.md)
 2. **Understand**: [ARCHITECTURE.md](ARCHITECTURE.md)
@@ -158,18 +158,18 @@ Stay updated:
 
 ## Timeline
 
-### Stage 0 (Current - Q1 2025)
+### Stage 0 (Current - Q1 2026)
 - Documentation completion
 - Community building
 - Feedback collection
 
-### Stage 1 (Q1-Q2 2025)
+### Stage 1 (Q1-Q2 2026)
 - Scrutinizer Core implementation
 - Basic detectors
 - Plugin foundation
 - Initial examples
 
-### Stage 2+ (2025)
+### Stage 2+ (2026)
 - See [ROADMAP.md](../ROADMAP.md) for details
 
 ## How to Contribute
@@ -216,7 +216,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for detailed guidelines.
 
 ### Q: When can I use this in production?
 
-**A**: Agent Scrutiny is in early development (Stage 0). Production-ready release is planned for late 2025 (Stage 5). Early adopters can test pre-release versions starting Stage 1.
+**A**: Agent Scrutiny is in early development (Stage 0). Production-ready release is planned for late 2026 (Stage 5). Early adopters can test pre-release versions starting Stage 1.
 
 ### Q: How can I help if I'm not a developer?
 
@@ -253,5 +253,5 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-**Last Updated**: January 2025
+**Last Updated**: January 2026
 **Current Stage**: Stage 0 - Foundation

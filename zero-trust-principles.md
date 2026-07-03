@@ -386,6 +386,6 @@ By applying these principles, we build AI systems that are secure by design, res
 2. Understand the [Architecture](ARCHITECTURE.md)
 3. Follow [Stage 1 Development](../ROADMAP.md)
 
-**Last Updated**: January 2025
+**Last Updated**: January 2026
 
 *Every agent, under scrutiny.*
