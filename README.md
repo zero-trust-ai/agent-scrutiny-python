@@ -159,13 +159,12 @@ result = scrutinizer.evaluate(
 
 ## 📚 Documentation
 
-- **[Architecture Overview](docs/ARCHITECTURE.md)** - System design and components
-- **[Threat Model](docs/THREAT-MODEL.md)** - Attack vectors and defenses
-- **[Zero-Trust Principles](docs/ZERO-TRUST-PRINCIPLES.md)** - Core security concepts
-- **[Project Structure](docs/PROJECT-STRUCTURE.md)** - Repository layout and conventions
-- **[Getting Started](docs/GETTING-STARTED.md)** - Onboarding guide
-- **[Roadmap](ROADMAP.md)** - Development stages and milestones
-- **[Contributing](CONTRIBUTING.md)** - How to contribute to the project
+- **[Architecture Overview](https://agent-scrutiny.github.io/architecture/)** – System design and components
+- **[Threat Model](https://agent-scrutiny.github.io/threat-model/)** – Attack vectors and defenses
+- **[Zero-Trust Principles](https://agent-scrutiny.github.io/zero-trust-principles/)** – Core security concepts
+- **[Getting Started](https://agent-scrutiny.github.io/getting-started/)** – Onboarding guide
+- **[Roadmap](https://agent-scrutiny.github.io/roadmap/)** – Development stages and milestones
+- **[Contributing](https://agent-scrutiny.github.io/contributing/)** – How to contribute
 
 ## 🛡️ Key Features (Planned)
 
@@ -183,6 +182,7 @@ result = scrutinizer.evaluate(
 We welcome contributions from security researchers, AI developers, and anyone passionate about building secure AI systems!
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for:
+
 - How to get started
 - Development setup
 - Code standards
