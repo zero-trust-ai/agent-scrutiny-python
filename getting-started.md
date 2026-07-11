@@ -122,6 +122,7 @@ Consider how Agent Scrutiny could help:
 ### Early Adoption
 
 Interested in:
+
 - Custom features for your use case
 - Commercial support
 - Deployment assistance
@@ -136,14 +137,17 @@ Contact: contact@zero-trust.ai
 New to AI security? Start here:
 
 **Prompt Injection**:
+
 - [OWASP LLM01: Prompt Injection](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - [Simon Willison's Prompt Injection Posts](https://simonwillison.net/tags/prompt-injection/)
 
 **Zero Trust Architecture**:
+
 - [NIST Zero Trust Architecture (SP 800-207)](https://www.nist.gov/publications/zero-trust-architecture)
 - [Microsoft Zero Trust Guidance](https://www.microsoft.com/en-us/security/business/zero-trust)
 
 **AI Risk Management**:
+
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
