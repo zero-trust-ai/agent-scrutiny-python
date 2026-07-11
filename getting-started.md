@@ -19,7 +19,7 @@ Learn about Agent Scrutiny's approach to AI security:
 
 - **[Zero-Trust Principles](ZERO-TRUST-PRINCIPLES.md)** - Core security concepts
 - **[Threat Model](THREAT-MODEL.md)** - Attack vectors we're defending against
-- **[Architecture](ARCHITECTURE.md)** - System design overview, including the plugin system
+- **[Architecture](architecture.md)** - System design overview, including the plugin system
 - **[Roadmap](../ROADMAP.md)** - Development timeline
 
 ### 2. Set Up Development Environment
@@ -84,7 +84,7 @@ Found a security concern? Email: security@zero-trust.ai
 Stage 1 development starts Q1 2026. Get ready:
 
 1. **Read**: [CONTRIBUTING.md](../CONTRIBUTING.md)
-2. **Understand**: [ARCHITECTURE.md](ARCHITECTURE.md)
+2. **Understand**: [architecture.md](architecture.md)
 3. **Watch**: GitHub repo for Stage 1 kick-off
 4. **Plan**: Which component you'd like to work on
 
