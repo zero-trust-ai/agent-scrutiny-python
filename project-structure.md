@@ -43,7 +43,7 @@ agent-scrutiny-python/
 │   └── test_integration.py     # Integration tests
 │
 ├── docs/
-│   ├── ARCHITECTURE.md         # System architecture
+│   ├── architecture.md         # System architecture
 │   ├── THREAT-MODEL.md         # Threat analysis
 │   ├── ZERO-TRUST-PRINCIPLES.md # Security principles
 │   ├── GETTING-STARTED.md      # Onboarding guide
@@ -97,7 +97,7 @@ Test suite using pytest:
 
 Comprehensive documentation:
 
-- **ARCHITECTURE.md**: System design and component overview, including plugin architecture
+- **architecture.md**: System design and component overview, including plugin architecture
 - **THREAT-MODEL.md**: Threat landscape and attack vectors
 - **ZERO-TRUST-PRINCIPLES.md**: Security principles and best practices
 - **GETTING-STARTED.md**: Onboarding guide for new users and contributors
