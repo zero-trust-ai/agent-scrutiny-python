@@ -382,7 +382,7 @@ By applying these principles, we build AI systems that are secure by design, res
 ---
 
 **Next Steps**:
-1. Review the [Threat Model](THREAT-MODEL.md)
+1. Review the [Threat Model](threat-model.md)
 2. Understand the [Architecture](architecture.md)
 3. Follow [Stage 1 Development](../ROADMAP.md)
 

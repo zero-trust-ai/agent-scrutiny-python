@@ -3,7 +3,7 @@
 # rename-to-zensical.sh
 #
 # Renames Markdown doc filenames to Zensical's lowercase-kebab convention
-# (e.g. docs/THREAT-MODEL.md -> docs/threat-model.md).
+# (e.g. docs/threat-model.md -> docs/threat-model.md).
 #
 # This is collision-aware on purpose. In this repo many lowercase files
 # ALREADY exist next to their uppercase twins and have diverged, so a blind

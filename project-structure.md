@@ -44,8 +44,8 @@ agent-scrutiny-python/
 │
 ├── docs/
 │   ├── architecture.md         # System architecture
-│   ├── THREAT-MODEL.md         # Threat analysis
-│   ├── ZERO-TRUST-PRINCIPLES.md # Security principles
+│   ├── threat-model.md         # Threat analysis
+│   ├── zero-trust-principles.md # Security principles
 │   ├── GETTING-STARTED.md      # Onboarding guide
 │   ├── PROJECT-STRUCTURE.md    # This file
 │   ├── API.md                  # [Stage 1+] API documentation
@@ -98,8 +98,8 @@ Test suite using pytest:
 Comprehensive documentation:
 
 - **architecture.md**: System design and component overview, including plugin architecture
-- **THREAT-MODEL.md**: Threat landscape and attack vectors
-- **ZERO-TRUST-PRINCIPLES.md**: Security principles and best practices
+- **threat-model.md**: Threat landscape and attack vectors
+- **zero-trust-principles.md**: Security principles and best practices
 - **GETTING-STARTED.md**: Onboarding guide for new users and contributors
 - **API.md**: API reference (added in Stage 1+)
 - **tutorials/**: Step-by-step guides for common use cases
@@ -127,11 +127,13 @@ CI/CD automation:
 ## Development Workflow
 
 ### Stage 0 (Current)
+
 1. Documentation and planning
 2. Repository setup
 3. Community feedback
 
 ### Stage 1+
+
 1. Create feature branch
 2. Implement functionality
 3. Write tests (TDD encouraged)

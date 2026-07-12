@@ -91,9 +91,9 @@ Clear documentation that:
 
 ### Current Stage: Documentation & Planning
 
-1. **Review the threat model**: See `docs/THREAT-MODEL.md`
+1. **Review the threat model**: See `docs/threat-model.md`
 2. **Understand the architecture**: See `docs/architecture.md`
-3. **Learn zero-trust for AI**: See `docs/ZERO-TRUST-PRINCIPLES.md`
+3. **Learn zero-trust for AI**: See `docs/zero-trust-principles.md`
 4. **Check the roadmap**: See `ROADMAP.md`
 
 ### Coming in Stage 1

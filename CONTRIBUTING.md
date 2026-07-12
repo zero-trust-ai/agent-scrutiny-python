@@ -299,7 +299,7 @@ New to AI security? Start here:
 - [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Zero Trust Architecture (NIST SP 800-207)](https://www.nist.gov/publications/zero-trust-architecture)
-- Our [docs/ZERO-TRUST-PRINCIPLES.md](docs/ZERO-TRUST-PRINCIPLES.md)
+- Our [docs/zero-trust-principles.md](docs/zero-trust-principles.md)
 
 ---
 

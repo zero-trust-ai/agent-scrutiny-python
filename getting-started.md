@@ -17,8 +17,8 @@ We're currently in **Stage 0 - Foundation**, which means:
 
 Learn about Agent Scrutiny's approach to AI security:
 
-- **[Zero-Trust Principles](ZERO-TRUST-PRINCIPLES.md)** - Core security concepts
-- **[Threat Model](THREAT-MODEL.md)** - Attack vectors we're defending against
+- **[Zero-Trust Principles](zero-trust-principles.md)** - Core security concepts
+- **[Threat Model](threat-model.md)** - Attack vectors we're defending against
 - **[Architecture](architecture.md)** - System design overview, including the plugin system
 - **[Roadmap](../ROADMAP.md)** - Development timeline
 
@@ -68,7 +68,7 @@ cat examples/basic_usage.py
 
 We're actively developing our threat model. Your expertise is valuable:
 
-1. Review `docs/THREAT-MODEL.md`
+1. Review `docs/threat-model.md`
 2. Identify missing attack vectors
 3. Suggest detection strategies
 4. Share real-world attack patterns
